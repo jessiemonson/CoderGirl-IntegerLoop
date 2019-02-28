@@ -23,7 +23,7 @@ namespace Test
 
                 var result = sw.ToString().Split(Environment.NewLine);
 
-                for (int i = 1; i <= 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     Assert.Equal(i * 2, int.Parse(result[i-1]));
                 }
