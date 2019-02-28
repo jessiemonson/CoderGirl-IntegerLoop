@@ -25,7 +25,7 @@ namespace Test
 
                 for (int i = 0; i <= 25; i++)
                 {
-                    Assert.Equal(i * 2, int.Parse(result[i-1]));
+                    Assert.Equal(i * 2, int.Parse(result[i]));
                 }
             }
         }
